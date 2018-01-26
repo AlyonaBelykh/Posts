@@ -1,0 +1,15 @@
+<div class='post-form-wrapper'>
+  <% if (user.id > -1) { %>
+  <form id="addMessage">
+    <div>
+      <input name="title" type="text" placeholder="Post Title">
+    </div>
+    <div>
+      <textarea name="body"></textarea>
+    </div>
+    <div>
+      <button>Add</button>
+    </div>
+  </form>
+  <% } %>
+</div>

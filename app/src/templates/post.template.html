@@ -1,0 +1,20 @@
+<h1><%-author%></h1>
+<h3 class="post-title"><%- title %></h3>
+<p class="post-text"><%- body %></p>
+
+<div class="message-actions">
+    <div class="container left">
+        <div class="action-wrapper">
+            <a id="like"></a>
+        </div>
+    </div>
+    <div class="container right">
+        <% if (user.id > -1 && user.id == model.userId) { %>
+        <button class='delete-blog'>Delete</button>
+        <% } %>
+    </div>
+</div>
+<div><button id="show" class="show-comments-button"><%- showAll ? 'Hide' : 'Show All'%></button></div>
+<div id="comments"></div>
+<div id="commentForm"></div>
+ 

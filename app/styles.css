@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    background-color: #30548e;
+    display: block;
+}
+
+#outlet {
+    padding-top: 48px;
+    border: none;
+    background-color: #ffffff;
+    display: block;
+}
+
+#footer {
+    border: none;
+    height: 32px;
+    color: #ffffff;
+    background-color: #323232;
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    font-size: 32px;
+    color: #ffffff;
+    padding: 8px;
+}
+#postList {
+  padding: 16px;
+}
+
+#postList ul {
+  padding: 0;
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+}
+
+#postList ul li {
+  padding: 8px;
+  border: 1px solid #afafaf;
+  min-height: 64px;
+  width: 100%;
+  text-align: left;
+  list-style-type: none;    
+  display: block;
+  margin: 8px;
+}
+
+#postList ul li .post-title {
+  font-size: 24px;
+  color: #315b8c;
+  text-decoration: none;
+}
+
+#postList ul li .message-actions {
+  padding-top: 4px;
+  width: 100%;
+  height: 32px;
+  color: #315b8c;
+  font-size: 16px;
+}
+
+#postList ul li .post-text {
+  font-size: 14px;
+  color: #323232;
+}
+
+.action-wrapper {
+  padding: 8px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+button {
+    border: none;
+    background-color: #5e81a8;
+    padding: 8px 32px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#new-post {
+  display: block;
+  width: 100%;
+}
+
+#new-post form {
+  margin:0;
+  display: block;
+}
+
+#new-post form textarea {
+  margin:0;
+  padding:0;
+  width:100%;
+  height: 300px;
+  resize: vertical;
+  display: block;
+}
+
+.error {
+  text-align: center;
+  font-size: 32px;
+  color: #ac3224;
+}
+
+i.like-icon {
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2214%22%20viewBox%3D%220%200%2016%2014%22%20style%3D%22fill%3A%233D6899%3B%22%3E%3Cpath%20d%3D%22M8%203.2C7.4-0.3%203.2-0.8%201.4%201%20-0.5%202.9-0.5%205.8%201.4%207.7%201.9%208.2%206.9%2013%206.9%2013%207.4%2013.6%208.5%2013.6%209%2013L14.5%207.7C16.5%205.8%2016.5%202.9%2014.6%201%2012.8-0.7%208.6-0.3%208%203.2Z%22%2F%3E%3C%2Fsvg%3E") no-repeat 0 0;
+    opacity: 0.5;
+}
+
+i.like-icon.active {
+    opacity: 1.0;
+}
+
+i.like-icon:hover {
+    opacity: 0.75;
+}
+
+.show-comments-button {
+  width: 100%;
+  background-color: #dfdfdf;
+  color: #30548e;
+  font-size: 14px;
+  padding: 12px;
+}

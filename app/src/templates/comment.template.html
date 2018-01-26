@@ -1,0 +1,11 @@
+<div id="comments">
+    <h1><%-author%></h1>
+</div>
+<div>
+    <p><%-text%></p>
+</div>
+ <% if (user.id > -1 && user.id == model.userId) { %>
+<div class="container right">
+    <button class='delete-comment'>Delete</button>
+</div>
+<% } %>

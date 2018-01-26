@@ -1,0 +1,24 @@
+{
+  "name": "test-forum",
+  "authors": [
+    ""
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.marionette": "^3.2.0",
+    "jquery": "^3.2.1",
+    "requirejs": "^2.3.3",
+    "text": "requirejs/text#^2.0.15"
+  }
+}
